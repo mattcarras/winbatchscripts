@@ -1,6 +1,6 @@
 @echo off
-REM Incremental backups with full backups every month.
-REM Assumes backups fail due to lack of space.
+REM Incremental backups with a full backup once it runs out of free space.
+REM Assumes backups fail due to lack of space, then deleting old ones.
 REM Originally made for Windows 8 as it didn't include
 REM the imaging options from Windows 7. May still be needed
 REM in Windows 10.
