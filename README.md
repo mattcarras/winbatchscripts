@@ -1,6 +1,6 @@
 # WinBatch Scripts
 Various Batch scripts for Windows.  
-Authored by: Matt Carras  :pen:
+Authored by: Matthew Carras  :pen:
 
 **RunAsInvoker.bat** - Simple script designed to be put in your "Send To" folder which runs the file as the current user, bypassing UAC checks and running it with whatever privilege level is currently set. Useful if the program always demands Administrator privileges but doesn't actually need them.
 
